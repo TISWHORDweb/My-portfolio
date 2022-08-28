@@ -218,9 +218,19 @@ body{
     max-height:240px;
     object-fit: cover;
     box-shadow: $primary-shadow;
-    padding: 10px 0px;
+    //@at-root: 10px 0px;
+    border-radius: 10px;
+}
+.all{
+    background-color: #000;
+    color: #f5f5f5;
 }
 
+.cls{
+    background-color: #000;
+    color: #f2762e;
+    border: 2px solid #f2762e;
+}
 // contact
 .contact-info{
     .contact-info-left{
@@ -241,7 +251,7 @@ body{
         padding: 5px 15px;
         display: inline-block;
         img{
-            width: 40px;
+            width: 30px;
         }
     }
     

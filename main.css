@@ -242,7 +242,18 @@ body {
      object-fit: cover;
   -webkit-box-shadow: 5px 30px -5px rgba(0, 0, 0, 0.2);
           box-shadow: 5px 30px -5px rgba(0, 0, 0, 0.2);
-  padding: 10px 0px;
+  border-radius: 10px;
+}
+
+.all {
+  background-color: #000;
+  color: #f5f5f5;
+}
+
+.cls {
+  background-color: #000;
+  color: #f2762e;
+  border: 2px solid #f2762e;
 }
 
 .contact-info .contact-info-left {
@@ -265,6 +276,6 @@ body {
 }
 
 .social-links a img {
-  width: 40px;
+  width: 30px;
 }
 /*# sourceMappingURL=main.css.map */
