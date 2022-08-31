@@ -100,16 +100,16 @@ body {
 #banner .jd-profile-pic {
   position: relative;
   margin-bottom: 30px;
-  max-width: 100%;
+  max-width: 95%;
 }
 
 #banner .jd-profile-pic::before {
   content: "";
   position: absolute;
   top: -8px;
-  left: 7px;
+  left: 5px;
   height: 100%;
-  width: 100%;
+  width: 98%;
   border: 3px solid #f2762e;
   border-radius: 15px;
   -webkit-transform: rotate(-4deg);
@@ -120,10 +120,10 @@ body {
   content: "";
   position: absolute;
   top: -8px;
-  left: 7px;
+  left: 3px;
   height: 100%;
-  width: 100%;
-  border: 4px solid #f2762e;
+  width: 98%;
+  border: 3px solid #f2762e;
   border-radius: 15px;
   -webkit-transform: rotate(4deg);
           transform: rotate(4deg);
